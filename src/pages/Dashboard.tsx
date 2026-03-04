@@ -494,7 +494,7 @@ const Dashboard = () => {
                     <div>
                         <h1 className="text-3xl font-bold text-white tracking-tight flex items-center gap-2">
                             <Compass className="h-8 w-8 text-blue-500" />
-                            Ola, Ernesto. Bem vindo a
+                            Olá, Higor. Bem vindo a
                         </h1>
                         <p className="text-slate-300 mt-1">Gestão de Fluxo - Magnavita Serviços Marítimos</p>
                     </div>
