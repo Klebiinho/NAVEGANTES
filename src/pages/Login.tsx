@@ -15,8 +15,8 @@ const Login = () => {
     const handleLogin = (e: React.FormEvent) => {
         e.preventDefault();
 
-        const validId = "09494602579";
-        const validPass = "naveganteservicosmaritimoshigor";
+        const validId = "teste";
+        const validPass = "teste";
 
         if (id === validId && password === validPass) {
             sessionStorage.setItem("admin_auth", "true");
@@ -43,10 +43,10 @@ const Login = () => {
                 <form onSubmit={handleLogin}>
                     <CardContent className="grid gap-4">
                         <div className="grid gap-2">
-                            <label className="text-sm font-medium text-slate-300">Código de Identificação</label>
+                            <label className="text-sm font-medium text-slate-300">Usuário</label>
                             <Input
                                 type="text"
-                                placeholder="00000000000"
+                                placeholder="teste"
                                 value={id}
                                 onChange={(e) => setId(e.target.value)}
                                 className="bg-slate-800 border-slate-700 text-white placeholder:text-slate-500"
