@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, Phone, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import { fadeUp, scaleIn, cardItem, staggerContainer, viewport } from "@/lib/animations";
+import { fadeUp, scaleIn, cardItem, staggerContainer, widthGrow, viewport } from "@/lib/animations";
 
 const cardsStagger = staggerContainer(0.12, 0.1);
 
@@ -45,7 +45,7 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Entre em Contato</h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+          <motion.div variants={widthGrow} className="h-1 bg-accent mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Estamos prontos para atendê-lo. Entre em contato conosco e tire todas as suas dúvidas.
           </p>

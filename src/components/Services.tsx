@@ -6,7 +6,7 @@ import {
 import ServiceBookingModal from "./ServiceBookingModal";
 import { supabase } from "@/integrations/supabase/client";
 import { motion } from "framer-motion";
-import { fadeUp, cardItem, staggerContainer, viewport } from "@/lib/animations";
+import { fadeUp, cardItem, staggerContainer, widthGrow, viewport } from "@/lib/animations";
 interface Service {
   id: string;
   title: string;
@@ -64,7 +64,7 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 uppercase tracking-tight">Nossos Serviços</h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+          <motion.div variants={widthGrow} className="h-1 bg-accent mx-auto mb-6" />
           <p className="text-white/70 max-w-2xl mx-auto text-lg">
             Oferecemos uma ampla gama de serviços especializados para atender todas as suas necessidades marítimas
           </p>

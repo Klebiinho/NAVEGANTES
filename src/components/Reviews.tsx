@@ -7,7 +7,7 @@ import { ReviewForm } from "./ReviewForm";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { motion } from "framer-motion";
-import { fadeUp, scaleInSubtle, viewport } from "@/lib/animations";
+import { fadeUp, scaleInSubtle, widthGrow, viewport } from "@/lib/animations";
 
 interface Review {
   id: string;
@@ -61,7 +61,7 @@ export const Reviews = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 uppercase tracking-tight">Avaliações</h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+          <motion.div variants={widthGrow} className="h-1 bg-accent mx-auto mb-6" />
           <p className="text-white/70 max-w-2xl mx-auto text-lg">
             Veja o que nossos clientes dizem sobre nossos serviços
           </p>

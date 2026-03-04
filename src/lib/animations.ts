@@ -35,11 +35,11 @@ export const viewportEager = {
 // ─── Variant Factories ──────────────────────────────────────────────────────
 
 export const fadeUp: Variants = {
-    hidden: { opacity: 0, y: 30 }, // Reduced distance for mobile fluidity
+    hidden: { opacity: 0, y: 50 }, // Increased distance for more noticeable reveal
     visible: {
         opacity: 1,
         y: 0,
-        transition: { duration: 0.6, ease: appleEase },
+        transition: { duration: 0.8, ease: appleEase },
     },
 };
 
@@ -56,7 +56,16 @@ export const fadeIn: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
-        transition: { duration: 0.6, ease: appleEase },
+        transition: { duration: 0.8, ease: appleEase },
+    },
+};
+
+export const widthGrow: Variants = {
+    hidden: { width: 0, opacity: 0 },
+    visible: {
+        width: "6rem", // equivalent to w-24
+        opacity: 1,
+        transition: { duration: 0.8, ease: appleEaseOut },
     },
 };
 
@@ -71,12 +80,21 @@ export const slideLeft: Variants = {
 };
 
 export const slideRight: Variants = {
-    hidden: { opacity: 0, x: 30 },
+    hidden: { opacity: 0, x: 50 },
     visible: {
         opacity: 1,
         x: 0,
-        transition: { duration: 0.6, ease: appleEaseOut },
+        transition: { duration: 0.8, ease: appleEaseOut },
     },
+};
+
+export const slideUpLg: Variants = {
+    hidden: { opacity: 0, y: 80 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.9, ease: [0.16, 1, 0.3, 1] },
+    }
 };
 
 export const scaleIn: Variants = {
@@ -97,25 +115,24 @@ export const scaleInSubtle: Variants = {
     },
 };
 
-// Faster staggers for mobile snappiness
-export const staggerContainer = (staggerChildren = 0.08, delayChildren = 0): Variants => ({
+// Faster staggers but with a more dramatic initial drop
+export const staggerContainer = (staggerChildren = 0.12, delayChildren = 0): Variants => ({
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
         transition: {
-            staggerChildren, // Snappier gaps
+            staggerChildren, // slightly larger gap for cascading effect
             delayChildren,
         },
     },
 });
 
-// Card child variant used inside stagger containers — now scales slightly too
 export const cardItem: Variants = {
-    hidden: { opacity: 0, y: 24, scale: 0.98 },
+    hidden: { opacity: 0, y: 40, scale: 0.92 }, // More drop and scale down
     visible: {
         opacity: 1,
         y: 0,
         scale: 1,
-        transition: { duration: 0.5, ease: appleEase },
+        transition: { duration: 0.7, ease: appleEase },
     },
 };

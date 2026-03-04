@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Clock, Headset, ShieldCheck } from "lucide-react";
-import { fadeUp, staggerContainer, cardItem, viewport } from "@/lib/animations";
+import { fadeUp, staggerContainer, cardItem, widthGrow, viewport } from "@/lib/animations";
 
 const features = [
     {
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
                     <h2 className="text-3xl md:text-5xl font-bold mb-4 uppercase tracking-tight">
                         Por que escolher a nossa acessoria náutica?
                     </h2>
-                    <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+                    <motion.div variants={widthGrow} className="h-1 bg-accent mx-auto mb-6" />
                 </motion.div>
 
                 <motion.div

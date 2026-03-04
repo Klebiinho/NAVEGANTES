@@ -1,6 +1,6 @@
 import { MapPin, Navigation } from "lucide-react";
 import { motion } from "framer-motion";
-import { fadeUp, slideLeft, slideRight, viewport } from "@/lib/animations";
+import { fadeUp, slideLeft, slideRight, widthGrow, viewport } from "@/lib/animations";
 
 const Location = () => {
   return (
@@ -16,7 +16,7 @@ const Location = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 uppercase tracking-tight">Nossa Localização</h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+          <motion.div variants={widthGrow} className="h-1 bg-accent mx-auto mb-6" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">

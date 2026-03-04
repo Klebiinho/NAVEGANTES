@@ -1,6 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
-import { fadeUp, slideLeft, slideRight, scaleIn, cardItem, staggerContainer, viewport } from "@/lib/animations";
+import { fadeUp, slideLeft, slideRight, scaleIn, cardItem, staggerContainer, widthGrow, viewport } from "@/lib/animations";
 import logo from "@/assets/navegantes-logo.png";
 
 const values = [
@@ -34,7 +34,7 @@ const About = () => {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Sobre a Navegantes</h2>
-            <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+            <motion.div variants={widthGrow} className="h-1 bg-accent mx-auto mb-6" />
           </motion.div>
 
           <div className="space-y-8 text-center md:text-left">
