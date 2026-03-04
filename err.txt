@@ -1,0 +1,396 @@
+{
+  "errors": [
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{nome",
+        "id": "duplicate_open_tag",
+        "context": "{{nome",
+        "offset": 361,
+        "explanation": "The tag beginning with \"{{nome\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 375,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{rg_c",
+        "id": "duplicate_open_tag",
+        "context": "{{rg_c",
+        "offset": 398,
+        "explanation": "The tag beginning with \"{{rg_c\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 410,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{cpf_",
+        "id": "duplicate_open_tag",
+        "context": "{{cpf_",
+        "offset": 423,
+        "explanation": "The tag beginning with \"{{cpf_\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 436,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{rua_",
+        "id": "duplicate_open_tag",
+        "context": "{{rua_",
+        "offset": 471,
+        "explanation": "The tag beginning with \"{{rua_\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 484,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{nume",
+        "id": "duplicate_open_tag",
+        "context": "{{nume",
+        "offset": 491,
+        "explanation": "The tag beginning with \"{{nume\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 507,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{bair",
+        "id": "duplicate_open_tag",
+        "context": "{{bair",
+        "offset": 519,
+        "explanation": "The tag beginning with \"{{bair\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 535,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{cida",
+        "id": "duplicate_open_tag",
+        "context": "{{cida",
+        "offset": 547,
+        "explanation": "The tag beginning with \"{{cida\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 563,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{esta",
+        "id": "duplicate_open_tag",
+        "context": "{{esta",
+        "offset": 576,
+        "explanation": "The tag beginning with \"{{esta\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 592,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{cep_",
+        "id": "duplicate_open_tag",
+        "context": "{{cep_",
+        "offset": 601,
+        "explanation": "The tag beginning with \"{{cep_\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 614,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{cida",
+        "id": "duplicate_open_tag",
+        "context": "{{cida",
+        "offset": 1390,
+        "explanation": "The tag beginning with \"{{cida\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 1406,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{esta",
+        "id": "duplicate_open_tag",
+        "context": "{{esta",
+        "offset": 1411,
+        "explanation": "The tag beginning with \"{{esta\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 1427,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{dia_",
+        "id": "duplicate_open_tag",
+        "context": "{{dia_",
+        "offset": 1431,
+        "explanation": "The tag beginning with \"{{dia_\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "acao}}",
+        "id": "duplicate_close_tag",
+        "context": "acao}}",
+        "offset": 1444,
+        "explanation": "The tag ending with \"acao}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{mes_",
+        "id": "duplicate_open_tag",
+        "context": "{{mes_",
+        "offset": 1450,
+        "explanation": "The tag beginning with \"{{mes_\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "acao}}",
+        "id": "duplicate_close_tag",
+        "context": "acao}}",
+        "offset": 1463,
+        "explanation": "The tag ending with \"acao}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{ano_",
+        "id": "duplicate_open_tag",
+        "context": "{{ano_",
+        "offset": 1469,
+        "explanation": "The tag beginning with \"{{ano_\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "acao}}",
+        "id": "duplicate_close_tag",
+        "context": "acao}}",
+        "offset": 1482,
+        "explanation": "The tag ending with \"acao}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate open tag, expected one open tag",
+      "stack": "Error: Duplicate open tag, expected one open tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateOpenTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:83:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:136:23\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "{{nome",
+        "id": "duplicate_open_tag",
+        "context": "{{nome",
+        "offset": 1484,
+        "explanation": "The tag beginning with \"{{nome\" has duplicate open tags",
+        "file": "word/document.xml"
+      }
+    },
+    {
+      "name": "TemplateError",
+      "message": "Duplicate close tag, expected one close tag",
+      "stack": "Error: Duplicate close tag, expected one close tag\n    at new XTTemplateError (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:21:16)\n    at getDuplicateCloseTagException (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\errors.js:95:13)\n    at C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:161:21\n    at Array.reduce (<anonymous>)\n    at getDelimiterErrors (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:126:46)\n    at parseDelimiters (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:327:29)\n    at Object.parse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\lexer.js:418:28)\n    at XmlTemplater.preparse (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\xml-templater.js:124:32)\n    at Docxtemplater.precompileFile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:409:19)\n    at Docxtemplater.compile (C:\\Users\\Kleber\\Downloads\\magnavita-main (2)\\node_modules\\docxtemplater\\js\\docxtemplater.js:511:16)",
+      "properties": {
+        "xtag": "ente}}",
+        "id": "duplicate_close_tag",
+        "context": "ente}}",
+        "offset": 1498,
+        "explanation": "The tag ending with \"ente}}\" has duplicate close tags",
+        "file": "word/document.xml"
+      }
+    }
+  ],
+  "id": "multi_error",
+  "explanation": "The template has multiple errors"
+}

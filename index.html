@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Navegantes Despachante Náutico - Excelência em Serviços Náuticos</title>
+  <meta name="description"
+    content="Navegantes Despachante Náutico oferece soluções completas em habilitações, certificados e regularização de embarcações em Pernambuco e Paraíba.">
+  <meta name="author" content="Navegantes Despachante Náutico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" />
+
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://storage.googleapis.com/gpt-engineer-file-uploads/oX7bNq1QZxULMJKj5QXijbwCi3B3/social-images/social-1764539180216-Captura de tela 2025-11-30 184517.png">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image"
+    content="https://storage.googleapis.com/gpt-engineer-file-uploads/oX7bNq1QZxULMJKj5QXijbwCi3B3/social-images/social-1764539180216-Captura de tela 2025-11-30 184517.png">
+  <meta property="og:title" content="Navegantes Despachante Náutico - Excelência em Serviços Náuticos">
+  <meta name="twitter:title" content="Navegantes Despachante Náutico - Excelência em Serviços Náuticos">
+  <meta property="og:description"
+    content="Navegantes Despachante Náutico oferece soluções completas em habilitações, certificados e regularização de embarcações em Pernambuco e Paraíba.">
+  <meta name="twitter:description"
+    content="Navegantes Despachante Náutico oferece soluções completas em habilitações, certificados e regularização de embarcações em Pernambuco e Paraíba.">
+  <link rel="icon" type="image/png" href="/src/assets/navegantes-logo.png">
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#020817" />
+  <!-- Apple PWA meta tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Navegantes" />
+  <link rel="apple-touch-icon" href="/pwa-icon-192.png" />
+</head>
+
+<body>
+  <!-- Global SVG Filters for Liquid Glass -->
+  <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" color-interpolation-filters="sRGB">
+    <filter id="liquid-round">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
+      <feComponentTransfer result="threshold">
+        <feFuncA type="gamma" amplitude="80" exponent="10" offset="-2"></feFuncA>
+      </feComponentTransfer>
+    </filter>
+  </svg>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+</body>
+
+</html>

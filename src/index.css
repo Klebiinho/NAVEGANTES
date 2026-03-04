@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Naval theme - Navy blue and gold */
+    --background: 0 0% 100%;
+    --foreground: 210 100% 12%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 210 100% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 100% 12%;
+
+    /* Navy blue primary */
+    --primary: 226 60% 34%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Medium blue secondary */
+    --secondary: 212 96% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 20% 95%;
+    --muted-foreground: 210 15% 45%;
+
+    /* Cyan accent */
+    --accent: 190 75% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 30% 85%;
+    --input: 210 30% 85%;
+    --ring: 226 60% 34%;
+
+    --radius: 0.5rem;
+
+    /* Naval gradients */
+    --gradient-navy: linear-gradient(135deg, hsl(226, 60%, 34%), hsl(212, 96%, 40%));
+    --gradient-gold: linear-gradient(135deg, hsl(190, 75%, 51%), hsl(190, 85%, 60%));
+
+    /* Shadows */
+    --shadow-navy: 0 10px 30px -10px hsl(226 60% 34% / 0.3);
+    --shadow-gold: 0 4px 20px -5px hsl(190 75% 51% / 0.4);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 210 100% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 210 100% 10%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 100% 10%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 190 75% 51%;
+    --primary-foreground: 226 60% 34%;
+
+    --secondary: 212 96% 40%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 50% 15%;
+    --muted-foreground: 210 20% 70%;
+
+    --accent: 190 75% 51%;
+    --accent-foreground: 226 60% 34%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 50% 20%;
+    --input: 210 50% 20%;
+    --ring: 190 75% 51%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* LIQUID GLASS (CUBIQ STYLE) */
+  .liquid-glass {
+    /* Base translucent color */
+    background-color: rgba(255, 255, 255, 0.03);
+    /* Deep blur and saturation for glass effect */
+    backdrop-filter: blur(24px) saturate(1.8);
+    -webkit-backdrop-filter: blur(24px) saturate(1.8);
+    /* The SVG filter that makes the glass borders fluid/melted */
+    filter: url("#liquid-round");
+  }
+
+  /* Variant for darker liquid glass */
+  .liquid-glass-dark {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(24px) saturate(1.8);
+    -webkit-backdrop-filter: blur(24px) saturate(1.8);
+    filter: url("#liquid-round");
+  }
+
+  /* GOOEY BUTTON CSS */
+  .blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    text-align: center;
+    color: #ffffff;
+    /* white text initially */
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 9999px;
+    /* fully rounded */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px -10px hsl(var(--secondary) / 0.8);
+  }
+
+  .blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid hsl(var(--accent));
+    /* cyan border */
+    border-radius: 9999px;
+  }
+
+  .blob-btn:hover {
+    color: hsl(var(--primary));
+    /* navy text on hover for contrast */
+  }
+
+  .blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    background: hsl(var(--secondary));
+    /* secondary blue initial */
+  }
+
+  .blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+  }
+
+  .blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: hsl(var(--accent));
+    /* cyan blob */
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+  }
+
+  @supports (filter: url("#goo")) {
+    .blob-btn__blob {
+      transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+  }
+
+  .blob-btn__blob:nth-child(1) {
+    left: -5%;
+    transition-delay: 0s;
+  }
+
+  .blob-btn__blob:nth-child(2) {
+    left: 25%;
+    transition-delay: 0.08s;
+  }
+
+  .blob-btn__blob:nth-child(3) {
+    left: 55%;
+    transition-delay: 0.16s;
+  }
+
+  .blob-btn__blob:nth-child(4) {
+    left: 85%;
+    transition-delay: 0.24s;
+  }
+
+  .blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+  }
+
+  @supports (filter: url("#goo")) {
+    .blob-btn:hover .blob-btn__blob {
+      transform: translateZ(0) scale(1.4);
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">magnavita</string>
+    <string name="title_activity_main">magnavita</string>
+    <string name="package_name">com.example.magnavita</string>
+    <string name="custom_url_scheme">com.example.magnavita</string>
+</resources>
