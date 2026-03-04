@@ -35,7 +35,7 @@ export const useNotifications = () => {
                 const notificationDate = addDays(dueDate, -5);
                 if (!isPast(notificationDate) || isToday(notificationDate)) {
                     notificationsToSchedule.push({
-                        title: 'Pagamento Próximo - Magnavita',
+                        title: 'Pagamento Próximo - Navegantes',
                         body: `O pagamento de ${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(t.valor)} (${t.cliente}) vence em 5 dias.`,
                         id: Math.floor(Math.random() * 1000000),
                         schedule: { at: new Date(notificationDate.setHours(9, 0, 0, 0)) }, // 9h da manhã
@@ -47,7 +47,7 @@ export const useNotifications = () => {
             // 2. Notificação no dia do vencimento
             if (daysUntilDue >= 0) {
                 notificationsToSchedule.push({
-                    title: 'Vencimento Hoje - Magnavita',
+                    title: 'Vencimento Hoje - Navegantes',
                     body: `Atenção: O pagamento de ${t.cliente} no valor de ${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(t.valor)} vence hoje!`,
                     id: Math.floor(Math.random() * 1000000),
                     schedule: { at: new Date(dueDate.setHours(8, 30, 0, 0)) },

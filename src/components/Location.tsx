@@ -79,7 +79,7 @@ const Location = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Magnavita Serviços Marítimos"
+              title="Localização Navegantes Despachante Náutico"
             />
           </motion.div>
         </div>

@@ -176,12 +176,12 @@ export const generatePDF = async (data: DocumentData) => {
         );
 
         addPara(
-            "ERNESTO MONTEIRO MAGNAVITA, brasileiro, portador do RG nº 9234721 e CPF nº 012.318.595-55, residente e domiciliado na Rua L (das Palmeiras), s/n, Bairro Jardim das Palmeiras, Cidade de São João da Barra – RJ, CEP 28.200-000.",
+            "HIGOR MONTEIRO NAVEGANTE, brasileiro, portador do RG nº 9234721 e CPF nº 012.318.595-55, residente e domiciliado na Rua L (das Palmeiras), s/n, Bairro Jardim das Palmeiras, Cidade de São João da Barra – RJ, CEP 28.200-000.",
             13, "justify", 2
         );
 
         addPara(
-            "MASSICLEIA ALCANTARA MAGNAVITA, brasileira, portadora do RG nº 1.379.319.137 e CPF nº 043.182.195-00, residente e domiciliada na Rua L (das Palmeiras), s/n, Bairro Atafona, Cidade de São João da Barra – RJ, CEP 28.200-000.",
+            "LAURA ALCANTARA NAVEGANTE, brasileira, portadora do RG nº 1.379.319.137 e CPF nº 043.182.195-00, residente e domiciliada na Rua L (das Palmeiras), s/n, Bairro Atafona, Cidade de São João da Barra – RJ, CEP 28.200-000.",
             13, "justify", 3
         );
 

@@ -16,7 +16,7 @@ const Login = () => {
         e.preventDefault();
 
         const validId = "09494602579";
-        const validPass = "magnavitaservicosmaritimosernestolauramassicleia";
+        const validPass = "naveganteservicosmaritimoshigor";
 
         if (id === validId && password === validPass) {
             sessionStorage.setItem("admin_auth", "true");

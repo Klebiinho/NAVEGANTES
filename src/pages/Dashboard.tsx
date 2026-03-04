@@ -496,7 +496,7 @@ const Dashboard = () => {
                             <Compass className="h-8 w-8 text-blue-500" />
                             Olá, Higor. Bem vindo a
                         </h1>
-                        <p className="text-slate-300 mt-1">Gestão de Fluxo - Magnavita Serviços Marítimos</p>
+                        <p className="text-slate-300 mt-1">Gestão de Fluxo - Navegantes Despachante Náutico</p>
                     </div>
                     <div className="flex gap-2 overflow-x-auto pb-2 w-full md:w-auto flex-nowrap md:flex-wrap">
                         <Button
@@ -1153,7 +1153,7 @@ const Dashboard = () => {
                 )}
 
                 <footer className="pt-12 text-slate-600 text-xs border-t border-slate-900 text-center pb-8">
-                    &copy; {new Date().getFullYear()} Magnavita Serviços Marítimos. Sistema GFM (Gestão de Fluxo Marítimo).
+                    &copy; {new Date().getFullYear()} Navegantes Despachante Náutico. Sistema GFM (Gestão de Fluxo Marítimo).
                 </footer>
             </div>
         </div>

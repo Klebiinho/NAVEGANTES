@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Company Info */}
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="Magnavita Logo" className="h-12 w-12 rounded-full" />
+            <img src={logo} alt="Navegantes Logo" className="h-12 w-12 rounded-full" />
             <div className="flex items-center gap-2">
               <div>
                 <h3 className="font-bold text-lg">Navegantes</h3>

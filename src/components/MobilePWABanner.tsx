@@ -52,7 +52,7 @@ export function MobilePWABanner() {
                         <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center shadow">
                             <img src="/favicon.ico" alt="Logo" className="w-5 h-5 object-contain" />
                         </div>
-                        <span className="text-sm font-semibold text-white">Magnavita</span>
+                        <span className="text-sm font-semibold text-white">Navegantes</span>
                     </div>
                     <button
                         onClick={() => setDismissed(true)}

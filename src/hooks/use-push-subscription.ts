@@ -64,7 +64,7 @@ export function usePushSubscription() {
                 setSubscribed(true);
                 // Show a welcome notification via SW
                 const swReg = reg as ServiceWorkerRegistration;
-                swReg.showNotification("Magnavita Serviços Marítimos", {
+                swReg.showNotification("Navegantes Despachante Náutico", {
                     body: "Notificações ativadas! Você receberá alertas importantes. ✅",
                     icon: "/favicon.ico",
                     badge: "/favicon.ico",
